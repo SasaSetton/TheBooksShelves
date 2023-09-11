@@ -1494,6 +1494,7 @@
       <string id="acc_three_image_count_of_total_item_visited"> פריט %count% מתוך %total% נצפה</string>
       <string id="three_image_count_of_total_visited">%count% מתוך %total% נצפו</string>
       <string id="accessible_text">מלל נגיש</string>
+      <string id="background_audio">אודיו ברקע</string>
       <string id="acc_enter_fullscreen">כניסה למצב מסך מלא</string>
       <string id="acc_exit_fullscreen">יציאה ממצב מסך מלא</string>
       <string id="keyboardshortcuts_lower">קיצורי מקשים</string>
@@ -1550,6 +1551,7 @@
       <string id="shortcut">קיצור דרך</string>
       <string id="submit_shortcut">שלח שקופיות</string>
       <string id="acctext_shortcut">הפעלת מלל נגיש</string>
+      <string id="background_audio_shortcut">להחליף אודיו ברקע</string>
       <string id="closedcaptions_shortcut">החלף כיתובים סגורים</string>
       <string id="fullscreen_shortcut">מעבר למצב מסך מלא</string>
       <string id="togglezoom">החלף זום כדי להתאים</string>
@@ -1608,6 +1610,17 @@
       <string id="acc_submit">שלח</string>
       <string id="submit_tip">שלח</string>
       <string id="unmute_tip">בטל השתקה</string>
+      <string id="transcript_auto_scroll">גלילה אוטומטית</string>
+      <string id="acc_window_close">סגור</string>
+      <string id="acc_video_transcript_list">תמלול</string>
+      <string id="acc_window_move">הזז חלון</string>
+      <string id="acc_modern_video_transcript">לִפְתוֹחַ</string>
+      <string id="acc_window_resize">שנה את גודל החלון</string>
+      <string id="video_transcript_resume_autoscroll">המשך גלילה אוטומטית</string>
+      <string id="video_transcript_select_track">בחר רצועה</string>
+      <string id="transcript_show_timestamp">הצג חותמות זמן</string>
+      <string id="video_transcript_title">תמלילים</string>
+      <string id="acc_window_options">אפשרויות</string>
       <string id="acc_volume">עוצמת קול</string>
     </string_table>
   </string_tables>

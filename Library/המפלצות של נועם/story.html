@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.73.30119.0 -->
+  <!-- version: 3.77.30587.0 -->
   <title>&#1492;&#1502;&#1508;&#1500;&#1510;&#1493;&#1514; &#1513;&#1500; &#1504;&#1493;&#1506;&#1501;</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,18 +28,18 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#FFFFFF',
-      features: 'AccessibleVideo,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement',
+      features: 'AccessibleVideo,ConnectionMessages,DropIn1,DropIn2,FullScreenToggle,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoSync',
       themeName: 'unified',
       preloaderColor: '#8C8C8C',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
-      aid: 'aid|9d002937-4311-4368-92b7-8b13f7f79723',
+      aid: 'aid|70608bac-b319-4658-b24b-50cf62a18ee7',
       cid: '2a1a90fe-4083-4889-b766-8926ba618b52',
-      playerVersion: '3.73.30119.0',
-      publishTimestamp: '2023-09-05T09:02:08.7397789Z',
+      playerVersion: '3.77.30587.0',
+      publishTimestamp: '2023-09-11T12:33:41.3375975Z',
       maxIosVideoElements: 10,
-      connectionSettings: { message: '%D7%94%D7%AA%D7%A0%D7%AA%D7%A7%D7%AA.%20%D7%9E%D7%A0%D7%A1%D7%94%20%D7%9C%D7%94%D7%AA%D7%97%D7%91%D7%A8%20%D7%9E%D7%97%D7%93%D7%A9...', useDarkTheme: true },
+      connectionSettings: { message: '%D7%94%D7%AA%D7%A0%D7%AA%D7%A7%D7%AA.%20%D7%9E%D7%A0%D7%A1%D7%94%20%D7%9C%D7%94%D7%AA%D7%97%D7%91%D7%A8%20%D7%9E%D7%97%D7%93%D7%A9...', useDarkTheme: true, mode: 'disabled' },
 
       
       parseParams: function(qs) {
@@ -239,22 +239,20 @@
       retryDelay: 500
     };
 
-    // @TODO this is POC code and can be cleaned up a bit more if we move forward
-    // with the feature
-
-
+    var connectionSettings = window.globals.connectionSettings || {};
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1;
+      window.globals.features.indexOf('ConnectionMessages') != -1 &&
+      connectionSettings.mode === 'normal';
 
     window.DS.connection.useConnectionMessages = useConnectionMessages
 
     var assetCount = 0;
     var checkLoadedId;
-    var connectionSettings = window.globals.connectionSettings;
+
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');
@@ -344,7 +342,7 @@
     function assetFailed(url) {
       if (!useConnectionMessages) { return; }
       if (!DS.connection.assets[url]) {
-        if (/\.js$/.test(url)) {
+        if (/\.js$/.test(url) && url.indexOf('transcripts') === -1) {
           setTimeout(function() {
             if (DS.connection.lastSlideLoaded != null) {
               DS.connection.lastSlideLoaded();
