@@ -1613,6 +1613,9 @@
         <slidelink slideid="_player.6eXYHAjXa75" displaytext="נמוכונת" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6eXYHAjXa75.6Kn2JkjUnSH" displaytext="תפריט ספר" expand="false" type="slide" />
+            <slidelink slideid="_player.6eXYHAjXa75.6ORrO0tn9YC" displaytext="ראיון" expand="false" type="slide" />
+            <slidelink slideid="_player.6eXYHAjXa75.5lOlnm8f9DN" displaytext="אישי" expand="false" type="slide" />
+            <slidelink slideid="_player.6eXYHAjXa75.5VCyNQk2Nt2" displaytext="אישי" expand="false" type="slide" />
             <slidelink slideid="_player.6eXYHAjXa75.5jVnApjL5N9" displaytext="שאלות" expand="false" type="slide" />
             <slidelink slideid="_player.6eXYHAjXa75.64l5F24jugb" displaytext="שאלות" expand="false" type="slide" />
             <slidelink slideid="_player.6eXYHAjXa75.5zbuI62qWx0" displaytext="הקראת סיפור" expand="false" type="slide" />
@@ -1621,12 +1624,6 @@
             <slidelink slideid="_player.6eXYHAjXa75.5lyFxHOoxrG" displaytext="שאלות" expand="false" type="slide" />
             <slidelink slideid="_player.6eXYHAjXa75.6T7e6iQMIN2" displaytext="שאלות" expand="false" type="slide" />
             <slidelink slideid="_player.6eXYHAjXa75.60KeBh6SBOS" displaytext="שאלות" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6JxPlP7nNIg" displaytext="מי יבוא איתי" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6eXYHAjXa75.5VCyNQk2Nt2" displaytext="אישי" expand="false" type="slide" />
-            <slidelink slideid="_player.6eXYHAjXa75.5lOlnm8f9DN" displaytext="אישי" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
