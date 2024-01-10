@@ -2,59 +2,44 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5n3rGA1B4h8":
+      case "6TcgSzwcZAm":
         Script1();
         break;
-      case "5gRdNSiWW3b":
+      case "6JkQyTJobi6":
         Script2();
         break;
-      case "6lECHv8TZoK":
+      case "5q5aaYkCohE":
         Script3();
         break;
-      case "5VntS0DIbrV":
+      case "69S9ugKr357":
         Script4();
         break;
-      case "5bjmwl4c5yc":
+      case "6GuLeOHvnOG":
         Script5();
         break;
-      case "6dO7QO0na3X":
+      case "69sWeMTIkiO":
         Script6();
         break;
-      case "5uZjYWnsvCj":
+      case "5nisskTpIte":
         Script7();
         break;
-      case "6b3Kt9YrNlD":
+      case "6736RtDiJKv":
         Script8();
         break;
-      case "69fOQr6KEnx":
+      case "5vk6w03LHsa":
         Script9();
         break;
-      case "6o4JDHF1WKe":
+      case "6Fi4bPE2t9T":
         Script10();
         break;
-      case "5WpzHEvAtzh":
+      case "6WRtZM2qfbl":
         Script11();
         break;
-      case "6l9co6L2dTw":
+      case "67DECJ3IzwC":
         Script12();
         break;
-      case "6OOy5IDDkqp":
+      case "5w5eptWiHoV":
         Script13();
-        break;
-      case "5x9SAOx2fS1":
-        Script14();
-        break;
-      case "5WQASsC7lmG":
-        Script15();
-        break;
-      case "6gG0CekWoXa":
-        Script16();
-        break;
-      case "68YTrqHhgJ5":
-        Script17();
-        break;
-      case "6IQZXVCwU2P":
-        Script18();
         break;
   }
 }
@@ -162,35 +147,5 @@ SheetsSet('שאלה 4',
 		);
 
 
-}
-
-function Script14()
-{
-  if(void 0===window.stencilsheets){t="https://cluelabs.com/stencil/display/widget-sheets-init-v2",s={authtool:"sl",chart:"MTQ5M3w0NDQ4fDA4ZmFlMGMzM2ZmMzVkNGE5MGNhN2FiNzFiNjlmNDE5"},a=Object.keys(s).map(e=>encodeURIComponent(e)+"="+encodeURIComponent(s[e])).join("&");(xhttp=new XMLHttpRequest).onreadystatechange=function(){if(4==this.readyState&&200==this.status&&""!=this.responseText){var e=this.responseText,t=document.getElementsByTagName("head")[0],s=document.createElement("script");t.appendChild(s),s.appendChild(document.createTextNode(e)),window.stencilsheets=!0}},xhttp.open("POST",t,!0),xhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),xhttp.send(a)}
-        
-}
-
-function Script15()
-{
-  var player = GetPlayer();
-SheetsSet('כינוי', player.GetVar('name'));
-}
-
-function Script16()
-{
-  var player = GetPlayer();
-SheetsSet('שם בית החולים', player.GetVar('HospitalName'));
-}
-
-function Script17()
-{
-  var player = GetPlayer();
-SheetsSet('שם המדף', player.GetVar('shelf'));
-}
-
-function Script18()
-{
-  var player = GetPlayer();
-SheetsSet('שם הספר', player.GetVar('BookName'));
 }
 
