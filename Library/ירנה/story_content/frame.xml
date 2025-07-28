@@ -20,7 +20,7 @@
           <option name="logo_enabled" value="true">
             <options>
               <option name="logo_url" />
-              <option name="html5_logo_url" value="mobile/6ClyPfsZ72Q.png" />
+              <option name="html5_logo_url" value="mobile/5fRCbKdhW6o.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -1441,8 +1441,6 @@
   <string_tables>
     <string_table name="pnxanbnsnfns01000000001">
       <string id="acc_active">פעיל</string>
-      <string id="acc_cc_hide">הסתר כתוביות (קונטרול+אלט+C)</string>
-      <string id="acc_cc_show">הראה כתוביות (קונטרול+אלט+C)</string>
       <string id="acc_closed_captions">כתוביות מקודדות. הקש על מקש הרווח כדי להפעיל ולכבות כתוביות.</string>
       <string id="acc_definition">הגדרה</string>
       <string id="acc_enter_fullscreen">כניסה למצב מסך מלא</string>
@@ -1457,20 +1455,15 @@
       <string id="acc_modern_video_play">הפעלת הסרטון</string>
       <string id="acc_modern_video_playback_speed">מהירות פסקול</string>
       <string id="acc_modern_video_settings">הגדרות סרטון</string>
-      <string id="acc_modern_video_transcript">לִפְתוֹחַ</string>
       <string id="acc_modern_video_volume">עוצמת הקול של הסרטון</string>
-      <string id="acc_mute">השתקה (קונטרול+אלט+M)</string>
       <string id="acc_next">הַבָּא</string>
-      <string id="acc_next_visual">הבא (קונטרול+אלט+.)</string>
       <string id="acc_pause">השהה</string>
       <string id="acc_play">הפעל</string>
       <string id="acc_playback_speed">~þlaý~bacķ~ špe~ed</string>
       <string id="acc_previous">הקודם</string>
-      <string id="acc_previous_visual">קודם (קונטרול+אלט+,)</string>
       <string id="acc_replay">הפעל מחדש</string>
       <string id="acc_resources">משאבים</string>
       <string id="acc_search_input">חיפוש</string>
-      <string id="acc_settings">הגדרות</string>
       <string id="acc_skipnavigation">חזור למעלה</string>
       <string id="acc_slide_progress">התקדמות השקופית</string>
       <string id="acc_submit">שלח</string>
@@ -1478,20 +1471,12 @@
       <string id="acc_three_image_count_of_total_item_visited"> פריט %count% מתוך %total% נצפה</string>
       <string id="acc_three_image_count_of_total_items_visited">%count% מתוך %total% פריטים נצפו</string>
       <string id="acc_three_image_step_count_of_total">שלב %count% מתוך %total%</string>
-      <string id="acc_unmute">ביטול השתקה (קונטרול+אלט+M)</string>
-      <string id="acc_video_transcript_list">תמלול</string>
       <string id="acc_visited">ביקרו בהם</string>
       <string id="acc_volume">עוצמת קול</string>
-      <string id="acc_window_close">סגור</string>
-      <string id="acc_window_move">הזז חלון</string>
-      <string id="acc_window_options">אפשרויות</string>
-      <string id="acc_window_resize">שנה את גודל החלון</string>
       <string id="accessible_text">מלל נגיש</string>
       <string id="acctext_shortcut">הפעלת מלל נגיש</string>
       <string id="action">פעולה</string>
       <string id="alt_key">Alt</string>
-      <string id="background_audio">אודיו ברקע</string>
-      <string id="background_audio_shortcut">להחליף אודיו ברקע</string>
       <string id="bio">ביוגרפיה</string>
       <string id="check_include">סמן כדי לכלול</string>
       <string id="clear">נקה וחזור לתפריט</string>
@@ -1602,15 +1587,30 @@
       <string id="three_image_visited">ביקרו בהם</string>
       <string id="togglezoom">החלף זום כדי להתאים</string>
       <string id="transcript">הערות</string>
-      <string id="transcript_auto_scroll">גלילה אוטומטית</string>
       <string id="transcript_chk">הערות</string>
-      <string id="transcript_show_timestamp">הצג חותמות זמן</string>
       <string id="unmute_tip">בטל השתקה</string>
+      <string id="zoom_to_fit">תקריב כדי שיתאים</string>
+      <string id="background_audio">אודיו ברקע</string>
+      <string id="continue">המשך</string>
+      <string id="background_audio_shortcut">להחליף אודיו ברקע</string>
+      <string id="acc_cc_hide">הסתר כתוביות (קונטרול+אלט+C)</string>
+      <string id="acc_cc_show">הראה כתוביות (קונטרול+אלט+C)</string>
+      <string id="acc_mute">השתקה (קונטרול+אלט+M)</string>
+      <string id="acc_next_visual">הבא (קונטרול+אלט+.)</string>
+      <string id="acc_previous_visual">קודם (קונטרול+אלט+,)</string>
+      <string id="acc_settings">הגדרות</string>
+      <string id="acc_unmute">ביטול השתקה (קונטרול+אלט+M)</string>
+      <string id="transcript_auto_scroll">גלילה אוטומטית</string>
+      <string id="acc_window_close">סגור</string>
+      <string id="acc_video_transcript_list">תמלול</string>
+      <string id="acc_window_move">הזז חלון</string>
+      <string id="acc_modern_video_transcript">לִפְתוֹחַ</string>
+      <string id="acc_window_resize">שנה את גודל החלון</string>
       <string id="video_transcript_resume_autoscroll">המשך גלילה אוטומטית</string>
       <string id="video_transcript_select_track">בחר רצועה</string>
+      <string id="transcript_show_timestamp">הצג חותמות זמן</string>
       <string id="video_transcript_title">תמלילים</string>
-      <string id="zoom_to_fit">תקריב כדי שיתאים</string>
-      <string id="continue">המשך</string>
+      <string id="acc_window_options">אפשרויות</string>
     </string_table>
   </string_tables>
   <fonts>
